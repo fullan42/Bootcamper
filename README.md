@@ -17,4 +17,3 @@ feedback(bootcamp sonrası userların verimlilik puanı verebilmesi için )(nps 
 ## Gelir modeli
 
 ![umlProje drawio](https://github.com/fullan42/Bootcamper/assets/53313497/1ddfb8de-d4f0-4220-8c4c-e92519725fc2)
-![diagram (1)](https://github.com/fullan42/Bootcamper/assets/53313497/b508ce1e-8185-49d8-bcef-124bd2204c68)
