@@ -1,22 +1,52 @@
-Proje adı: 
+# Name of the Project:
 Bootcamper.com
-Amaç:
+## purpose
 Bootcamp providerlar ile developerları tek bir çatı altında toplamak.
-çıktı:
+## çıktı
 -Geliştiriciler siteden tüm bootcamp providerların hazırladığı bootcampleri görebilir ve başvurabilirler.
 -bootcamp providerlar kendi sitelerinden ziyade doğrudan geliştiricilerin tamamen bootcamp için geldiği sitede yayınlayabilirler veya kendi sitelerinde yayınlı olan bootcamplerin reklamını yapabilirler.
-hedef kitle: 
-yazılımcılar veya bootkampe katılmak isteyen yazılımcı adayları 
-potansiyel rakipler:
-CourseCompare, SwitchUp, Course Report
-Website özellikleri:
+## hedef kitle
+yazılımcılar veya bootkampe katılmak isteyen yazılımcı adayları, Bootcamp Providerlar(kendi reklamlarını da yapabilirler)
+## potansiyel rakipler
+CourseCompare, SwitchUp, Course Report, Coder Space, patika.dev
+## Website özellikleri
 kullanıcı arayüzü ve validasyonu (provider admin, user ve visitor hepsi ayrı ayrı olacak)
-ilan( bootcampler için) 
+ilan( bootcampler için)
 profil(providerlar için)
-cv(userlar bootcampe apply atarken kullanması için)
-feedback(bootcamp sonrası userların verimlilik puanı verebilmesi için )
-Gelir modeli: 
+feedback(bootcamp sonrası userların verimlilik puanı verebilmesi için )(nps score check)
+## Gelir modeli
 Site içerisinde ve bootcamp içerisinde bulunan video resim vb. yada listeleme esnasında google adsense ile oluşturulmuş reklam blokları.
+## Class diagram 
 
+```mermaid
+class Bootcamp {
+    -String name
+    -Date deadline
+    -Date whenStartDate
+    -User[] users
+    -String subject
+    -String place
+    -double price
+    -Feedback[] feedback
+    -Provider provider
+}
 
-![proje drawio](https://github.com/fullan42/Bootcamper/assets/53313497/1702c6a6-5408-420d-87f0-159a36113345)
+class User {
+    -String name
+    -String email
+    -String surname
+    -Bootcamp[] appliedBootcamps
+}
+
+class Provider {
+    -String name
+    -String website
+    -Bootcamp[] bootcamps
+}
+
+class Feedback {
+    -int rate
+    -int numberOfComments
+    -User user
+    -Bootcamp bootcamp
+}
