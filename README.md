@@ -20,5 +20,4 @@ Site içerisinde ve bootcamp içerisinde bulunan video resim vb. yada listeleme 
 
 =======
 
-![umlProje drawio](https://github.com/fullan42/Bootcamper/assets/53313497/1ddfb8de-d4f0-4220-8c4c-e92519725fc2)
->>>>>>> d1009ada67fe86228975193326c9db43ce2a8b3e
+![umlProjeSon](https://github.com/fullan42/Bootcamper/assets/53313497/da6529af-55c7-4992-9f46-540488b331ad)
