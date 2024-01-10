@@ -16,37 +16,4 @@ profil(providerlar için)
 feedback(bootcamp sonrası userların verimlilik puanı verebilmesi için )(nps score check)
 ## Gelir modeli
 Site içerisinde ve bootcamp içerisinde bulunan video resim vb. yada listeleme esnasında google adsense ile oluşturulmuş reklam blokları.
-## Class diagram 
 
-```mermaid
-class Bootcamp {
-    -String name
-    -Date deadline
-    -Date whenStartDate
-    -User[] users
-    -String subject
-    -String place
-    -double price
-    -Feedback[] feedback
-    -Provider provider
-}
-
-class User {
-    -String name
-    -String email
-    -String surname
-    -Bootcamp[] appliedBootcamps
-}
-
-class Provider {
-    -String name
-    -String website
-    -Bootcamp[] bootcamps
-}
-
-class Feedback {
-    -int rate
-    -int numberOfComments
-    -User user
-    -Bootcamp bootcamp
-}
