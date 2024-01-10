@@ -1,13 +1,13 @@
 # Name of the Project:
 Bootcamper.com
-## purpose
+## Purpose
 Bootcamp providerlar ile developerları tek bir çatı altında toplamak.
-## çıktı
+## Çıktı
 -Geliştiriciler siteden tüm bootcamp providerların hazırladığı bootcampleri görebilir ve başvurabilirler.
 -bootcamp providerlar kendi sitelerinden ziyade doğrudan geliştiricilerin tamamen bootcamp için geldiği sitede yayınlayabilirler veya kendi sitelerinde yayınlı olan bootcamplerin reklamını yapabilirler.
-## hedef kitle
+## Hedef kitle
 yazılımcılar veya bootkampe katılmak isteyen yazılımcı adayları, Bootcamp Providerlar(kendi reklamlarını da yapabilirler)
-## potansiyel rakipler
+## Potansiyel rakipler
 CourseCompare, SwitchUp, Course Report, Coder Space, patika.dev
 ## Website özellikleri
 kullanıcı arayüzü ve validasyonu (provider admin, user ve visitor hepsi ayrı ayrı olacak)
